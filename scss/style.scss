@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap");
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 .carousel {
@@ -66,7 +66,7 @@ body {
     align-items: center;
     text-align: center;
     cursor: pointer;
-    border: 1px solid #F5F5F5;
+    border: 1px solid #f5f5f5;
     background-color: #fff;
     padding: 24px 32px 0 24px;
     border-radius: 12px;
@@ -76,7 +76,7 @@ body {
         transform: scale(1.03);
     }
     p {
-        font-family: 'Poppins';
+        font-family: "Poppins";
         text-align: center;
         font-size: 18px;
         font-weight: 600;
@@ -88,7 +88,7 @@ body {
         font-weight: 600;
         line-height: 18px;
         text-align: center;
-        color: #A9A9A9;
+        color: #a9a9a9;
         margin-top: 24px;
         margin-bottom: 16px;
     }
@@ -120,13 +120,13 @@ body {
         font-size: 12px;
         font-weight: 600;
         line-height: 18px;
-        color: #6A983C;
+        color: #6a983c;
     }
 }
 
 .card-body {
     div {
-        color: #6A983C;
+        color: #6a983c;
     }
     h5 {
         font-size: 15px;
@@ -158,8 +158,8 @@ body {
     button {
         padding: 6.5px 12px;
         border-radius: 12px;
-        border: 2px solid #46760A;
-        background-color: #6A983C;
+        border: 2px solid #46760a;
+        background-color: #6a983c;
         font-size: 15px;
         font-weight: 700;
         line-height: 22.5px;
@@ -209,7 +209,7 @@ body {
         font-size: 12px;
         font-weight: 600;
         line-height: 18px;
-        color: #6A983C;
+        color: #6a983c;
         background-color: #fff;
         padding: 0 8px;
     }
@@ -254,8 +254,8 @@ body {
         font-size: 12px;
         font-weight: 600;
         line-height: 18px;
-        color: #6A983C;
-        background-color: #F4F8EC;
+        color: #6a983c;
+        background-color: #f4f8ec;
         padding: 0 8px;
         margin-bottom: 8px;
     }
@@ -310,4 +310,45 @@ body {
             color: #151515;
         }
     }
+}
+.foter-botom-container {
+    display: flex;
+    flex-direction: column;
+    .foot-desc {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 27px;
+        color: rgba(21, 21, 21, 1);
+        margin-bottom: 16px;
+    }
+    .foter-content {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        margin-bottom: 48px;
+    }
+    .foot-add {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19.07px;
+        text-align: left;
+        color: rgba(21, 21, 21, 1);
+        user-select: none;
+    }
+}
+.foter-content a {
+    padding: 4px 10px;
+    border-radius: 12px;
+    background-color: rgba(245, 245, 245, 1);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(245, 245, 245, 1);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    transition: 0.5s all;
+    color: rgba(21, 21, 21, 1);
+    transition: 0.3s;
+}
+.foter-content a:hover {
+    border-bottom: 1px solid #151515;
 }
