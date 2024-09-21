@@ -12,7 +12,6 @@ main {
 header {
     background-color: #fff;
     padding: 20px;
-    border-bottom: 1px solid #ddd;
 }
 
 .header-top {
@@ -68,11 +67,15 @@ h1 {
     color: #333;
 }
 
+nav {
+    background-color: #F9F9F9;
+}
+
 nav ul {
     display: flex;
-    background-color: #57A773;
     padding: 10px;
     list-style: none;
+    justify-content: space-between;
 }
 
 nav ul li {
@@ -80,7 +83,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #151515;
     text-decoration: none;
 }
 
@@ -88,15 +91,23 @@ nav ul li a {
     width: 25%;
     background-color: #fff;
     padding: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
 }
 
 .category-menu h2 {
     margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    color: #151515;
 }
 
 .category-menu ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
     margin-bottom: 20px;
 }
 
@@ -121,15 +132,23 @@ nav ul li a {
 .banner-section {
     display: flex;
     justify-content: space-between;
-    width: 75%;
+    width: 100%;
     padding-left: 20px;
+    display: flex;
+    gap: 30px;
+    height: 100%;
 }
 
 .banner {
-    width: 48%;
-    background-color: #e9f5ee;
-    padding: 20px;
+    width: 100%;
+    height: 100%;
+    background-color: #c8deb34a;
+    padding: 70px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    border-radius: 12px;
 }
 
 .banner h3 {
@@ -149,6 +168,11 @@ nav ul li a {
     color: white;
     text-decoration: none;
     border-radius: 5px;
+}
+
+.menu__container {
+    display: flex;
+    align-items: center;
 }
 
 .carousel {
